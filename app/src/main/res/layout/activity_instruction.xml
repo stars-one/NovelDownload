@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wan.noveldownload.Activity.instructionActivity">
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:autoLink="web"
+        android:text="@string/downloadIntruduce"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.打开一部小说，复制其地址"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.主界面点击进入相应的下载"
+        app:layout_constraintTop_toBottomOf="@id/tv2"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.点击右下角添加按钮，输入地址即可下载"
+        app:layout_constraintTop_toBottomOf="@id/tv3"
+        android:textSize="16sp"/>
+</android.support.constraint.ConstraintLayout>
