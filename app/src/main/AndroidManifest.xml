@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".Activity.instructionActivity">
         </activity>
+        <activity android:name=".Activity.DownloadActivity" android:label="下载列表">
+        </activity>
     </application>
 
 </manifest>

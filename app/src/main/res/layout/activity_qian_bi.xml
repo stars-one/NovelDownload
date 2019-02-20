@@ -6,11 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wan.noveldownload.Activity.QianBiActivity">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:text="@string/downloadIntruduce"/>
+    <include layout="@layout/activity_instruction"/>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/btn1"
